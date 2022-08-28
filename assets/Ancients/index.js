@@ -1,7 +1,7 @@
-import azathoth from './Azathoth.png';
-import cthulhu from './Cthulthu.png';
-import iogSothoth from './IogSothoth.png';
-import shubNiggurath from './ShubNiggurath.png';
+let azathoth = './assets/Ancients/0.png';
+let cthulhu = './assets/Ancients/1.png';
+let iogSothoth = './assets/Ancients/2.png';
+let shubNiggurath = './assets/Ancients/3.png';
 
 const ancients = {
   azathoth,

@@ -1,0 +1,193 @@
+*{
+margin: 0 auto;
+padding: 0;
+margin: 0;
+
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background: url("./assets/zoidberg.jpg");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+header{
+    width: 100%;
+    height: 5%;
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    color: rgba(126, 6, 6, 0.637);
+    font-size: 1.3vw;
+    padding-left: 6vw;
+}
+.wrapper {
+    width: 100%;
+    height: 85%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: space-between;
+    color:rgba(228, 194, 142, 0.7);
+    font-size: 1.3vw;
+
+    
+}
+
+.ancient_choose {
+    min-width: 50%;
+    height: 100%;
+    font-size: 2vw;
+    display: flex;
+    flex-direction: column;
+    gap: 5vw;
+    align-items: center;
+    justify-content: space-between;
+}
+.ancients_list{
+    display: flex;
+    
+}
+.ancient_card{
+    width: 35vw;
+    height: 45vw;
+    background: no-repeat;
+    background-size: contain;
+}
+.list{
+    list-style: none;
+}
+.list_item{
+    cursor: pointer;
+}
+.list_item:hover{
+    color:rgba(228, 194, 142, 1);
+}
+.active_item{
+    list-style: square;
+    color:rgb(250, 64, 64);
+}
+.difficulty_choose{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 2%;
+    
+
+}
+
+.difficulty{
+    border: 0.15vw solid rgba(228, 194, 142, 0.7);
+    border-radius: 0.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3vw;
+    cursor: pointer;
+}
+
+.difficulty:hover{
+    color:rgba(228, 194, 142, 1);
+}
+.deck_of_cards{
+    min-width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.shuffle_btn{
+    width: 8vw;
+    height: 3vw;
+    font-size: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.15vw solid rgba(228, 194, 142, 0.7);
+    border-radius: 0.5vw;
+    padding: 5px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.shuffle_btn:hover{
+    color:rgba(228, 194, 142, 1);
+}
+
+.current_state{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+.stage{
+    display: flex;
+    flex-direction: column;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    gap: 1vw;
+}
+.icon{
+    width: 3.3vw;
+    height: 3.3vw;
+    border-radius: 0.6vw;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+    color: black;   
+}
+.stage_name{
+    text-align: center;
+}
+
+.blue{
+    background-color: rgba(46, 46, 226, 0.959);
+}
+.brown{
+    background-color: rgb(145, 79, 18);
+}
+.green{
+    background-color: green;
+}
+.deck{
+    display: flex;
+    justify-content: flex-end;
+    gap: 1vw;
+    align-items: center;
+    transition: all 0.5s;
+}
+.current{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+.current_card{
+    width: 13vw;
+    height: 19vw;
+    background: no-repeat;
+    background-size: contain;
+}
+.turned_deck{
+    width: 6.5vw;
+    height: 9.5vw;
+    background: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+
+footer{
+    width: 100%;
+    height: 10%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.unvisible{
+    visibility: hidden;
+}
+.crossed {
+    text-decoration: line-through;
+}

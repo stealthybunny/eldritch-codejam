@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>Древний ужас</header>
+    <div class="wrapper">
+        <div class="ancient_choose">
+            <div class="ancients_list">
+                <ul class="list">
+                    <li class="list_item azathoth">Азатот</li>
+                    <li class="list_item cthulthu">Ктулху</li>
+                    <li class="list_item jog_sothoth">Йог-Сотот</li>
+                    <li class="list_item schub_niggurat">Шуб-Ниггурат</li>
+                </ul>
+            </div>
+            <div class="ancient_card"></div>
+
+        </div>
+        <div class="difficulty_choose unvisible">
+            <h2>Уровень сложности:</h2>
+            <div class="veryLow difficulty">Очень лёгкий</div>
+            <div class="low difficulty">Лёгкий</div>
+            <div class="medium difficulty">Средний</div>
+            <div class="high difficulty">Высокий</div>
+            <div class="veryHigh difficulty">Очень высокий</div>
+        </div>
+        <div class="deck_of_cards">
+            <div class="current_state unvisible">
+                <div class="stage">
+                    <span class="first_stage_tracker stage_name">1 стадия</span>
+                    <div class="icons">
+                        <div class="icon green" id="green1"></div>
+                        <div class="icon brown" id="brown1"></div>
+                        <div class="icon blue" id="blue1"></div>
+                    </div>
+                </div>
+                <div class="stage">
+                    <span class="second_stage_tracker stage_name">2 стадия</span>
+                    <div class="icons">
+                        <div class="icon green" id="green2"></div>
+                        <div class="icon brown" id="brown2"></div>
+                        <div class="icon blue" id="blue2"></div>
+                    </div>
+                </div>
+                <div class="stage">
+                    <span class="third_stage_tracker stage_name">3 стадия</span>
+                    <div class="icons">
+                        <div class="icon green" id="green3"></div>
+                        <div class="icon brown" id="brown3"></div>
+                        <div class="icon blue" id="blue3"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="deck unvisible">
+                <div class="turned_deck unvisible"></div>
+                <div class="current">
+                    <div class="current_card_text1"></div>
+                    <div class="current_card_text2"></div>
+                    <div class="current_card"></div>
+                </div>
+                
+            </div>
+            <div class="shuffle_btn unvisible">Замешать</div>
+        </div>
+        
+    </div>
+    <footer></footer>
+    <script type="module" src="./index.js"></script>
+</body>
+</html>
